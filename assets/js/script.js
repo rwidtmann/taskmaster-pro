@@ -107,7 +107,7 @@ $(".list-group").on("click", "span", function () {
 
   // enable jquery ui date picker
   dateInput.datepicker({
-    // minDate: 1,
+    minDate: 1,
     onClose: function () {
       // when calendar is closed, force a "change" event
       $(this).trigger("change");
@@ -261,5 +261,5 @@ $("#trash").droppable({
 
 // Date Picker
 $("#modalDueDate").datepicker({
-  // minDate: 1,
+  minDate: 1,
 });
